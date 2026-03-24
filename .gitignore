@@ -1,0 +1,34 @@
+# Environment files (contains passwords!)
+.env
+config/.env
+*.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error_log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Composer
+vendor/
+composer.lock
+
+# Test files (optional - remove after testing)
+public/test-*.php
+public/test-db.php
+
+# Session files
+sessions/
